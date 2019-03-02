@@ -1,0 +1,70 @@
+.orange {
+    color: orange;
+    font-style: normal;
+}
+
+.wanted {
+    position: relative;
+}
+
+.wanted img {
+    opacity: 0.5;
+}
+
+.wanted .coin {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    left: 10%;
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.wanted .coin .reward {
+    text-align: center;
+    padding: 2% 10%;
+    font-weight: bold;
+}
+
+.wanted .gandalf {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: white;
+    font-size: 50px;
+}
+
+.wanted .dead {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: black;
+    font-size: 50px;
+}
+
+.wanted:hover img {
+    opacity: 1;
+    transition: .1s ease;
+}
+
+.wanted:hover .coin .reward {
+    display: none;
+}
+
+.wanted:hover .gandalf {
+    top: 80%;
+    font-size: 30px;
+    left: 30%;
+}
+
+footer .container{
+    background-color: #424242;
+    border: 1px solid #000000;
+
+}
+
+footer a{
+    color:white;
+    text-decoration: none; 
+}
